@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                  // The target JavaScript version
+    "module": "ESNext",                // The module system to use
+    "moduleResolution": "node",        // Resolving modules using Node.js algorithm
+    "strict": true,                    // Enabling strict type-checking options
+    "esModuleInterop": true,           // Enabling compatibility with non-ES module libraries
+    "skipLibCheck": true,              // Skipping type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Ensures consistent file naming
+    "baseUrl": "src",                  // Setting the base folder for module resolution
+    "paths": {
+      "@/*": ["*"],                    // Resolving '@' to the 'src' folder
+      "@/types": ["types"]              // Resolving '@/types' to 'src/types' folder
+    },
+    "jsx": "react-jsx",                // Enabling React 17+ JSX transform
+    "allowJs": true,                   // Allowing JavaScript files to be imported
+    "resolveJsonModule": true          // Allowing JSON imports
+  },
+  "include": [
+    "src/**/*"                          // Including all files in the 'src' folder
+  ],
+  "exclude": [
+    "node_modules"                      // Excluding node_modules folder
+  ]
+}
