@@ -18,22 +18,18 @@ A Smart Resume Builder application built using the MERN stack (MongoDB, Express.
 
 ⚡ Responsive and Fast UI
 
-🛠 Tech Stack
+Technology | Used For
+MongoDB | Database
+Express.js | Backend API
+React.js | Frontend
+Node.js | Server-side development
+TypeScript | Type safety for frontend and backend
+Mongoose | MongoDB ODM
+Redux Toolkit | State management (if used)
+Tailwind CSS / Material-UI | UI Styling (if used)
+JWT Authentication | Secure login/signup
 
-Technology	Used For
-MongoDB	Database
-Express.js	Backend API
-React.js	Frontend
-Node.js	Server-side development
-TypeScript	Type safety for both frontend and backend
-Mongoose	MongoDB ODM
-Redux Toolkit	State management (if used)
-Tailwind CSS / Material-UI	UI Styling (if used)
-JWT Authentication	Secure login/signup
 📂 Project Structure (Brief)
-bash
-Copy
-Edit
 ├── client/      # React Frontend (TypeScript)
 │   ├── src/
 │   │   ├── components/
@@ -51,28 +47,22 @@ Edit
 ├── README.md
 ├── package.json
 └── tsconfig.json
+
 📦 Installation
 Clone the repository:
-
-bash
-Copy
-Edit
 git clone https://github.com/your-username/smart-resume-builder.git
 cd smart-resume-builder
-For Backend (server):
-bash
-Copy
-Edit
+
+For Backend(server):
 cd server
 npm install
 npm run dev
+
 For Frontend (client):
-bash
-Copy
-Edit
 cd client
 npm install
 npm start
+
 ⚡ Make sure to create a .env file for both backend and frontend with necessary environment variables (like MONGO_URI, JWT_SECRET, REACT_APP_API_URL, etc.)
 
 Screenshots
