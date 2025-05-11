@@ -18,16 +18,52 @@ A Smart Resume Builder application built using the MERN stack (MongoDB, Express.
 
 ⚡ Responsive and Fast UI
 
-Technology | Used For
-MongoDB | Database
-Express.js | Backend API
-React.js | Frontend
-Node.js | Server-side development
-TypeScript | Type safety for frontend and backend
-Mongoose | MongoDB ODM
-Redux Toolkit | State management (if used)
-Tailwind CSS / Material-UI | UI Styling (if used)
-JWT Authentication | Secure login/signup
+Frontend (React.js)
+ 
+ 	• React.js (for UI)
+ 
+ 	• Bootstrap / Tailwind CSS (for styling)
+ 
+ 	• jsPDF (for PDF generation)
+ 
+ Backend (Node.js & Express.js)
+ 
+ 	• Express.js (API framework)
+ 
+ 	• MongoDB (Database) with Mongoose
+ 
+ 	• JWT Authentication (for secure login)
+ 
+ 	• Multer (for uploading profile pictures)
+ 
+ Alternative Backend (Python & Flask)
+ 
+ 	• Flask (instead of Node.js)
+ 
+ 	• SQLite / PostgreSQL
+ 
+ 🛠
+ Project Features
+ 
+ 1. User Authentication
+ 
+ 		• Signup/Login with JWT Authentication
+ 
+ 		• Google OAuth for quick login
+ 
+ 2. Resume Builder
+ 
+ 		• User inputs personal details, education, experience, skills
+ 
+ 		• Live preview of resume templates
+ 
+ 		• Auto-suggestions for skills
+ 
+ 3. Resume PDF Download
+ 
+		• Generate PDF using jsPDF
+ 
+		• Option to save and edit resumes later
 
 📂 Project Structure (Brief)
 ├── client/      # React Frontend (TypeScript)
